@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   margin: 0;
-  /* min-width: 1000px; */
+  min-width: 550px;
   /* height: auto; */
 }
 
@@ -180,8 +180,10 @@ img {
   color: white;
   border-radius: 8px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  gap: 15px;
+  padding: 0 40px;
   height: 110px;
 }
 
@@ -240,5 +242,20 @@ footer {
 
   .menuHamburger {
     display: flex;
+  }
+
+  .section_3 {
+    padding: 50px 100px;
+  }
+
+  .quote {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .thor {
+    font-size: 16px;
   }
 }
